@@ -1,5 +1,6 @@
 <nav>
     <ul>
+        <li><a href="{{ route('beranda') }}">Beranda</a></li>
         <li><a href="{{ route('akses.index') }}">Hak Akses</a></li>
         <li><a href="{{ route('pengguna.index') }}">Pengguna</a></li>
         <li><a href="{{ route('barang.index') }}">Barang</a></li>

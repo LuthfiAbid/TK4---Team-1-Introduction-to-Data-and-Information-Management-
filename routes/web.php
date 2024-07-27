@@ -12,7 +12,7 @@ use App\Http\Controllers\labaRugi\LabaRugiController;
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('beranda');
 
 Route::prefix('hak_akses')->group(function () {
     Route::get('/index', [HakAksesController::class, 'index'])->name('akses.index');
